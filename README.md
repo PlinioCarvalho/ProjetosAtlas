@@ -1,7 +1,6 @@
 # Projeto Atlas
 # Ideia do Projeto
-A ideia do projeto é fazer um Atlas online, um lugar para pesquisar informações de países.
-Um projeto simples pra mostrar um pouco dos meus conhecimentos.
+Um projeto simples pra mostrar um pouco dos meus conhecimentos com Spring, Thymeleaf e Bootstrap.
 
 # Linguagem e Frameworks
 Utilizo no projeto Java, Spring Boot, Spring Data JPA, Spring Validation, Spring Security Thymeleaf, Bootstrap e Maven.
