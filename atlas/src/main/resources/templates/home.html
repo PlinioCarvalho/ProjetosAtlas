@@ -1,0 +1,35 @@
+<html>
+     <head th:replace="~{base :: head}">
+          <meta charset="UTF-8">
+	 </head>
+     <body>
+          <div th:replace="~{base :: logo}">
+          </div>
+          
+          <div class="container">
+              <div>
+	              <div th:replace="~{base :: titulo('Home')}">
+	              </div>
+	              
+	              <div class="card mb-3">
+	              	  <form sec:authorize="isAuthenticated()" class="card-body d-flex mb-0" action="/home/pesquisa" method="post">
+    	 				   <button type="submit" class="btn btn-success me-2">Pesquisar</button>
+    	                   <input type="search" name="nomePesquisa" class="form-control">
+    				  </form>
+	              </div>
+	              <div class="card">
+		              <div class="card-body row align-items-center">
+		              	  <div class="mb-3">
+				              <a class="ms-0 btn btn-success btn-lg col-md-2" href="/continente/america" role="button">America</a>
+							  <a class="ms-5 btn btn-success btn-lg col-md-2" href="/continente/europa" role="button">Europa</a>
+							  <a class="ms-5 btn btn-success btn-lg col-md-2" href="/continente/africa" role="button">Africa</a>
+							  <a class="ms-5 btn btn-success btn-lg col-md-2" href="/continente/oceania" role="button">Oceania</a>
+							  <a class="ms-5 btn btn-success btn-lg col-md-2" href="/continente/asia" role="button">Asia</a>
+						  </div>
+						  <img class="img-fluid" alt="" src="https://s2.glbimg.com/84qk6u6zGSphV2VBDDxnbHYUN6I=/620x350/e.glbimg.com/og/ed/f/original/2018/10/16/mapa1.jpg">
+			           </div>
+		           </div>
+	           </div>
+          </div>
+     </body>
+</html>
