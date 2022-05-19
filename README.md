@@ -28,6 +28,4 @@ Utilizo no projeto Java, Spring Boot, Spring Data JPA, Spring Validation, Spring
 - O projeto permite que usuarios adicionem novos países ao atlas.
 ![image](https://user-images.githubusercontent.com/104327368/169198005-8cd601ad-3fcb-49f0-8359-c3da0781e3aa.png)
 
-- O projeto divide e aprensenta os países por continentes.
-![image](https://user-images.githubusercontent.com/104327368/169198958-a771ef3b-86e0-4e80-a46a-f476efdb2504.png)
 
