@@ -1,4 +1,3 @@
-# MeusProjetosPublicos
 # Projeto Atlas
 # Ideia do Projeto
 A ideia do projeto é fazer um Atlas online, um lugar para pesquisar informações de países.
